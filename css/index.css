@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+html{
+    font-family: 'Dancing Script', cursive;
+}
+
+main{
+    background-image: url("../images/259408776_2994544064138756_3114805235940623386_n.jpg");
+    background-repeat: no-repeat;
+    height: 44em;
+    width: 40em;
+    margin-left: 30%;
+}
+
+.space{
+    height: 32px;
+}
+
+.main > .card__visit{
+    background-color: #f0c088;
+    height: 600px;
+    width: 400px;
+    margin-left: 12%;
+    padding-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 3;
+}
+
+.card__visit > img{
+    height: 160px;
+    border-radius: 50%;
+}
+
+.phonenumber, .face ,
+.zalo, .tiktok, .soundcloud{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 52px;
+    border-radius: 40px;
+    height: 62px;
+}
+
+i{
+    padding-right: 60px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+
+.phonenumber > i{
+    color: darkgreen;
+}
+
+.face > i{
+    color: darkcyan;
+}
+
+.zalo > i{
+    color: cornflowerblue;
+}
+
+.soundcloud > i{
+    font-size: 32px;
+    width: 10%;
+    color: darkorange;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a:hover{
+    color: cyan;
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        html{
+            background-image: url("../images/259408776_2994544064138756_3114805235940623386_n.jpg");
+            background-repeat: no-repeat;
+        }
+
+        main{
+            width: auto;
+            margin-left: 0;
+        }
+
+        .space{
+            height: 80px;
+        }
+
+        .main > .card__visit{
+            width: auto;
+            margin: 4%;
+            height: 600px;
+            line-height: 2;
+        }
+        
+        .phonenumber, .face ,
+        .zalo, .tiktok, .soundcloud{
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+    }
